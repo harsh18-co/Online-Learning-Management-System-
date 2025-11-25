@@ -2,7 +2,7 @@ Online Learning Management System (Java)
 
 Author:- Harsh Raj, Depanshu Dubey, Ankit Awasthi 
 
-Short Description:-
+Short Description:
 
 A fully functional console-based Learning Management System (LMS) implemented in Java.
 The system supports Admin, Instructor, and Student dashboards with complete workflows:
