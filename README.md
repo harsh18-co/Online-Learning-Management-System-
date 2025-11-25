@@ -3,7 +3,7 @@ import java.time.*;
 
 /**
  * Simple console-based Online Learning Management System (LMS)
- * -----------------------------------------------------------
+ * -------------------------------------------------------
  * - Supports three roles: ADMIN, INSTRUCTOR, STUDENT
  * - Admin: user management, course management, analytics, system settings, activity log
  * - Instructor: create/manage courses, assignments, grade submissions, view performance
