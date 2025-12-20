@@ -1,17 +1,58 @@
-Online Learning Management System (Java)
+# Online Learning Management System (LMS)
+## 3rd Semester SCSE – Live Project
 
-Author:- Harsh Raj, Depanshu Dubey, Ankit Awasthi 
+## Project Overview
+The Online Learning Management System (LMS) is a Java-based application designed to manage online courses using role-based access control. The system supports three user roles: Admin, Instructor, and Student, each with a dedicated dashboard and defined functionalities. The project demonstrates modular design, proper integration of components, data validation, and clean implementation of a real-world academic system.
 
-Short Description:
+## System Working
+1. Authentication & Role Management: Admin creates user accounts and assigns roles. Secure login enforces role-based access to dashboards.
+2. Admin Workflow: Manage users and courses, configure system settings, and monitor performance analytics and system activity.
+3. Instructor Workflow: Create and manage courses, create assignments, evaluate submissions, and track student performance.
+4. Student Workflow: Enroll in courses, access learning materials, submit assignments, and track progress and grades.
 
-A fully functional console-based Learning Management System (LMS) implemented in Java.
-The system supports Admin, Instructor, and Student dashboards with complete workflows:
+## User Roles & Functionalities
+Admin: User Management, Course Management, Performance Analytics, System Settings  
+Instructor: Course Creation, Assignment Grading, Student Performance Monitoring  
+Student: Course Enrollment, Material Access, Assignment Submission, Progress Tracking  
 
-Admin manages users, courses, analytics, and system settings
+## Project Structure
+LMS/
+├── src/
+│   ├── admin/          # Admin module logic
+│   ├── instructor/     # Instructor module logic
+│   ├── student/        # Student module logic
+│   ├── database/       # Database connectivity
+│   ├── validation/     # Input validation & error handling
+│   └── ui/             # GUI components
+├── docs/
+│   └── project_report.pdf
+└── README.md
 
-Instructors create courses, materials, assignments, grade submissions
+## Student Contribution Details
+Student Name: Harsh Raj
+Admission Number: 24SCSE1180271 
+Primary Module Ownership: Admin Module & Backend Core  
+Secondary Contributions: System integration  
 
-Students enroll, access content, submit assignments, and track progress
+Student Name: Depanshu Dubey 
+Admission Number: 24SCSE1180107 
+Primary Module Ownership: Instructor Module & Database  
+Secondary Contributions: Validation & grading  
 
+Student Name: Ankit Awasthi 
+Admission Number: 24SCSE1180203  
+Primary Module Ownership: Student Module & UI Design  
+Secondary Contributions: Documentation & testing  
 
-Built using Object-Oriented Programming, Collections, and menu-driven interaction
+Each student had full ownership of one core module and contributed to supporting components to ensure complete system integration.
+
+## Validation & Error Handling
+All user inputs are validated before processing. Role-based access prevents unauthorized actions. Proper error messages are displayed for invalid operations, and the system handles failures without crashing.
+
+## How to Run the Project
+Clone the repository, open it in a Java IDE (Eclipse, IntelliJ, or NetBeans), configure database settings if required, and run the main application file.
+
+## Documentation
+Project documentation is included in the docs folder. The code is modular, readable, and commented. This README explains the system structure and individual contributions clearly.
+
+© 2024 GUVI Geek Network Pvt. Ltd. All rights reserved. No part of this project may be reproduced or distributed without prior written permission.
