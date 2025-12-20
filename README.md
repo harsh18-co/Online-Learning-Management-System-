@@ -32,18 +32,21 @@ LMS/
 Student Name: Harsh Raj
 
 Admission Number: 24SCSE1180271 
+
 Primary Module Ownership: Admin Module & Backend Core  
 Secondary Contributions: System integration  
 
 Student Name: Depanshu Dubey 
 
 Admission Number: 24SCSE1180107 
+
 Primary Module Ownership: Instructor Module & Database  
 Secondary Contributions: Validation & grading  
 
 Student Name: Ankit Awasthi 
 
-Admission Number: 24SCSE1180203  
+Admission Number: 24SCSE1180203 
+ 
 Primary Module Ownership: Student Module & UI Design  
 Secondary Contributions: Documentation & testing  
 
